@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_margin="@dimen/value_16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/my_baground">
+
+    <androidx.cardview.widget.CardView
+
+        app:cardCornerRadius="@dimen/value_8db"
+        android:layout_margin="@dimen/value_12dp"
+        android:layout_width="@dimen/layout"
+        android:layout_height="@dimen/layout"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <ImageView
+            android:scaleType="centerCrop"
+            android:src="@drawable/asia"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <LinearLayout
+        android:layout_marginStart="@dimen/value_5dp"
+        android:layout_marginTop="@dimen/value_12dp"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="@string/asia_sama"
+            android:textStyle="bold"
+            android:textSize="@dimen/size_16sp"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="@string/programmer"
+            android:textColor="@color/colorTextTitel2"
+            android:textSize="@dimen/size_12sp"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/value_8db"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/value_8db"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_baseline_add_location_24"
+                app:tint="@color/red" />
+
+            <TextView
+                android:text="IQ"
+                android:textSize="@dimen/value_12dp"
+                android:layout_gravity="center"
+                android:textColor="@color/colorText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/value_8db">
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="@string/_150_reviews"
+                android:textSize="@dimen/size_12sp"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="4.5 "
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textSize="@dimen/size_12sp"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:layout_width="@dimen/value_16dp"
+                android:layout_height="@dimen/value_16dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_baseline_star_24"
+                app:tint="@color/yellow" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginEnd="@dimen/value_8db"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/value_2dp"
+        android:layout_marginTop="@dimen/value_12dp"
+        android:gravity="end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:text="3 hr"
+            android:textSize="@dimen/size_12sp"
+            android:paddingRight="@dimen/value_8db"
+            android:paddingLeft="@dimen/value_8db"
+            android:textColor="@color/white"
+            android:background="@drawable/my_circle"
+            android:layout_width="38dp"
+            android:layout_height="20dp"/>
+
+
+        <TextView
+            android:textColor="@color/colorTextTitel2"
+            android:layout_marginTop="@dimen/value_5dp"
+            android:text="@string/iraq"
+            android:textSize="@dimen/size_12sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:layout_marginTop="@dimen/value_9dp"
+            android:textColor="@color/colorTextTitel"
+            android:text="@string/_5_days_ago"
+            android:textSize="@dimen/size_12sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
