@@ -65,7 +65,7 @@
                 android:layout_width="14dp"
                 android:layout_height="14dp"
                 android:layout_gravity="center"
-                android:src="@drawable/ic_baseline_add_location_24"
+                android:src="@drawable/ic_baseline_location_on_24"
                 app:tint="@color/red" />
 
             <TextView
